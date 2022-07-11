@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contato</title>
+</head>
+<body>
+    <header class="box-header"></header>
+    <main class="box-main">
+        <div class="nav-logo">
+            <div>
+                <a href="index.html" class="logo">LOGO</a>
+            </div>
+        </div>
+        <section class="box-section">
+            <div class="contact-form">
+                <h1 class="title-form">Formulário de contato</h1>
+                <p class="text-form">Agradeço por seu interesse, para me enviar uma mensagem favor preencher os campos abaixo:</p>
+                <form onsubmit="return funcConfirmar()" action="index.html">
+                    <div>
+                        <div class="div-form">
+                            <label for="Nome">Nome:</label>
+                            <input name = "Nome" type="text" id="txtLogin" placeholder="Digite seu nome" required/>
+                        </div>
+                        <div class="div-form">
+                            <label for="txtEmail">Email:</label>
+                            <input name = "txtEmail" type="email" id="txtEmail" placeholder="Digite seu e-mail" required/>
+                        </div>
+                        <div class="div-form">
+                            <label for="Phone">Telefone:</label>
+                            <input name="Phone" type="tel" id="txtPhone" placeholder="Digite seu telefone" required />
+                        </div>
+                        <div class="div-form">
+                            <label for="Mensagem">Insira sua mensagem na caixa abaixo:</label>
+                            <textarea class="msg-form" name="Mensagem" id="txtMsg" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+                        </div>
+                        <button type="submit" class="btn-form">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <footer class="box-footer"></footer>
+        <script src="app.js"></script>
+    </main>
+</body>
+</html>

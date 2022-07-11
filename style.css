@@ -1,0 +1,183 @@
+/* Estilização compartilhada */
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* body{
+    width: 100vh;
+} */
+
+.box-header{
+    min-height: 50vh;
+}
+
+.box-main{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.nav-logo{
+    position: fixed;
+}
+
+.logo{
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 3em;
+    text-decoration: none;
+    color: black;
+}
+
+.box-section{
+    max-width: 50vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    justify-content: center;
+}
+
+.box-footer{
+    min-height: 15vh;
+}
+
+/* Estilização página inicial */
+
+.link-trabalhos{
+    font-size: 4em;
+    font-weight: bold;
+    text-decoration: none;
+    /* padding-left: 50vh; */
+    color: black;
+}
+
+.link-trabalhos:hover{
+    opacity: 0.6;
+    transition: all 0.7s ease 0s;
+    color: orange;
+}
+
+.link-blog{
+    font-size: 3rem;
+    text-decoration: none;
+    /* padding-left: 50vh; */
+    color: black;
+}
+
+.link-blog:hover{
+    opacity: 0.6;
+    transition: all 0.7s ease 0s;
+    color: blue;
+}
+
+.link-contato{
+    font-size: 3rem;
+    font-style: italic;
+    text-decoration: none;
+    /* padding-left: 50vh; */
+    color: black;
+}
+
+.link-contato:hover{
+    opacity: 0.6;
+    transition: all 0.7s ease 0s;
+    color:green;
+}
+
+/* Estilização página trabalhos */
+
+.box-div-trabalho{
+    padding-bottom: 200px;
+}
+
+.box-list-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex: 1 1 auto;
+    padding-bottom: 20px;
+    list-style: none;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+.style-link-trabalho{
+    text-decoration: none;
+    font-size: 1em;
+    color: black;
+    font-weight: bold;
+}
+
+/* Estilização página errâncias */
+
+.link-trabalho-blog{
+    font-size: 2em;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.link-trabalho-blog:hover{
+    opacity: 0.6;
+    transition: all 0.7s ease 0s;
+    color: blue;
+}
+
+.title-blog{
+    padding-bottom: 10px;
+}
+
+.text-blog{
+    padding-bottom: 20px;
+}
+
+/* Estilização páginas de Blog */
+
+.title-blog-open{
+    padding-bottom: 10px;
+    font-size: 3em;
+}
+
+.link-blog-return{
+    text-decoration: none;
+    font-size: 2rem;
+    color: black;
+}
+
+.link-blog-return:hover{
+    opacity: 0.6;
+    transition: all 0.7s ease 0s;
+    color: gold;
+}
+
+/* Estilização página Contato */
+
+.contact-form{
+    border: 3px solid cornflowerblue;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 1em gray;
+    
+}
+
+.title-form{
+    font-size: 1.5em;
+    padding-bottom: 10px;
+}
+
+.text-form{
+    padding-bottom: 10px;
+}
+
+.div-form{
+    padding-bottom: 10px;
+}
+
+.msg-form{
+    margin-top: 10px;
+}
